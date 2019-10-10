@@ -1,0 +1,30 @@
+.material-icons {
+  position: relative;
+  bottom: -0.15em;
+  line-height: 0;
+  font-size: 1em;
+}
+
+.mi-primary { color: $color_primary; &:hover {background: $color_primary; color: $color_white; cursor: pointer;} }
+.mi-success { color: $color_success; &:hover {background: $color_success; color: $color_white; cursor: pointer;} }
+.mi-warning { color: $color_warning; &:hover {background: $color_warning; color: $color_white; cursor: pointer;} }
+.mi-danger { color: $color_danger; &:hover {background: $color_danger; color: $color_white; cursor: pointer;} }
+.mi-info { color: $color_info; &:hover {background: $color_info; color: $color_white; cursor: pointer;} }
+
+.icon-panel {
+  border: 1px solid $color_black;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  width: 150px;
+
+  p {
+    font-size: .6rem;
+  }
+
+  .material-icons {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+}

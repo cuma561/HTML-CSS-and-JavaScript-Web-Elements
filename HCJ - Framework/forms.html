@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HCJ - Framework</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="scss/hcj-framework.css">
+	</head>
+
+	<body>
+		
+		<div class="navbar">
+			<div class="container">
+				<a href="index.html" class="navbar-logo">HCJ</a>
+				<a href="#" class="navbar-mobile-menu-button" data-menu-id="#menu-1">Menu</a>
+				<ul class="navbar-menu" id="menu-1">
+					<li><a href="paragraph.html">Akapity</a></li>
+					<li><a href="typography.html">Typografia</a></li>
+          			<li><a href="table.html">Tabele</a></li>
+          			<li><a href="forms.html">Formularz</a></li>
+          			<li><a href="buttons.html">Przyciski</a></li>
+          			<li><a href="icons.html">Ikony</a></li>
+          			<li><a href="labels.html">Etykiety</a></li>
+          			<li class="dropdown">
+          				<a href="#" class="dropdown-menu-button">Więcej <i class="material-icons">arrow_drop_down</i></a>
+          				<ul class="dropdown-menu">
+          					<li><a href="paginations.html">Paginacja</a></li>
+              				<li><a href="images.html">Obrazki</a></li>
+              				<li><a href="panels.html">Panele</a></li>
+              				<li><a href="preloaders.html">Preloadery</a></li>
+              				<li><a href="tooltips.html">Tooltipy</a></li>
+              				<li><a href="alerts.html">Alerty</a></li>
+              				<li><a href="tabs.html">Zakładki</a></li>
+              				<li><a href="popups.html">Wyskakujące okienka</a></li>
+          				</ul>
+          			</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="page-header">
+				<h1 class="text-center">Formularz</h1>
+			</div>
+			<div class="row">
+				<div class="col-m-6 mt-20">
+					<div class="form-input" style="margin-left: 120px;">
+        				<input id="input-1" type="text" name="">
+        				<label for="input-1">Label input 1</label>
+      				</div>
+      				<div class="form-input" style="margin-left: 120px;">
+        				<input id="input-2" type="text" name="">
+        				<label for="input-2">Label input 2</label>
+      				</div>
+      				<div class="form-input" style="margin-left: 120px;">
+        				<textarea id="textarea-1" name=""></textarea>
+        				<label for="textarea-1">Label textarea 1</label>
+      				</div>
+				</div>
+				<div class="col-m-6 mt-20">
+					<div class="form-input" style="margin-left: 120px;">
+        				<select name="">
+          					<option value="" disabled selected hidden>Wybierz opcję</option>
+          					<option value="">Opcja 1</option>
+          					<option value="">Opcja 2</option>
+          					<option value="">Opcja 3</option>
+        				</select>
+      				</div>
+      				<div class="form-radio" style="margin-left: 120px;">
+        				<input id="plec-mezczyzna" type="radio" name="plec" value="mezczyzna">
+        				<label for="plec-mezczyzna">Mężczyzna</label>
+        				<input id="plec-kobieta" type="radio" name="plec" value="kobieta">
+        				<label for="plec-kobieta">Kobieta</label>
+      				</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-m-12 text-center">
+					<div class="form-checkbox">
+        				<input id="dni-robocze-poniedzialek" type="checkbox" name="dni-robocze" value="Poniedziałek">
+        				<label for="dni-robocze-poniedzialek">Poniedziałek</label>
+        				<input id="dni-robocze-wtorek" type="checkbox" name="dni-robocze" value="Wtorek">
+        				<label for="dni-robocze-wtorek">Wtorek</label>
+        				<input id="dni-robocze-sroda" type="checkbox" name="dni-robocze" value="Środa">
+        				<label for="dni-robocze-sroda">Środa</label>
+        				<input id="dni-robocze-czwartek" type="checkbox" name="dni-robocze" value="Czwartek">
+        				<label for="dni-robocze-czwartek">Czwartek</label>
+        				<input id="dni-robocze-piatek" type="checkbox" name="dni-robocze" value="Piątek">
+        				<label for="dni-robocze-piatek">Piątek</label>
+        				<input id="dni-robocze-sobota" type="checkbox" name="dni-robocze" value="Sobota">
+        				<label for="dni-robocze-sobota">Sobota</label>
+        				<input id="dni-robocze-niedziela" type="checkbox" name="dni-robocze" value="Niedziela">
+        				<label for="dni-robocze-niedziela">Niedziela</label>
+      				</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>

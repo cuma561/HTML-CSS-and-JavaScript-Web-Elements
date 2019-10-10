@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HCJ - Framework</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="scss/hcj-framework.css">
+	</head>
+
+	<body>
+		
+		<div class="navbar">
+			<div class="container">
+				<a href="index.html" class="navbar-logo">HCJ</a>
+				<a href="#" class="navbar-mobile-menu-button" data-menu-id="#menu-1">Menu</a>
+				<ul class="navbar-menu" id="menu-1">
+					<li><a href="paragraph.html">Akapity</a></li>
+					<li><a href="typography.html">Typografia</a></li>
+          			<li><a href="table.html">Tabele</a></li>
+          			<li><a href="forms.html">Formularz</a></li>
+          			<li><a href="buttons.html">Przyciski</a></li>
+          			<li><a href="icons.html">Ikony</a></li>
+          			<li><a href="labels.html">Etykiety</a></li>
+          			<li class="dropdown">
+          				<a href="#" class="dropdown-menu-button">Więcej <i class="material-icons">arrow_drop_down</i></a>
+          				<ul class="dropdown-menu">
+          					<li><a href="paginations.html">Paginacja</a></li>
+              				<li><a href="images.html">Obrazki</a></li>
+              				<li><a href="panels.html">Panele</a></li>
+              				<li><a href="preloaders.html">Preloadery</a></li>
+              				<li><a href="tooltips.html">Tooltipy</a></li>
+              				<li><a href="alerts.html">Alerty</a></li>
+              				<li><a href="tabs.html">Zakładki</a></li>
+              				<li><a href="popups.html">Wyskakujące okienka</a></li>
+          				</ul>
+          			</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="page-header">
+				<h1 class="text-center">PopUp</h1>
+			</div>
+			<div class="row">
+				<div class="col-m-12">
+					<div class="m-40">
+						<button style="width: 100%;" type="button" class="btn btn-success" data-modal-id="#popup-1">Popup</button>
+					</div>
+					<div class="modal" id="popup-1">
+      					<div class="modal-body">
+        					<button type="button" class="close close-button">&times;</button>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        					<span class="close btn btn-danger">Zamknij okno</span>
+      					</div>
+    				</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-m-3">
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="" class="popUP" data-modal-id="#popup-3">sed</a> do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			</div>
+    			<div class="col-m-3">
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="" class="popUP" data-modal-id="#popup-4">Duis</a> aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			</div>
+    			<div class="col-m-3">
+    				<p>Lorem ipsum dolor sit amet, <a href="" class="popUP" data-modal-id="#popup-2">consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			</div>
+    			<div class="col-m-3">
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="" class="popUP" data-modal-id="#popup-5">consequat</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			</div>
+    			<div class="col-m-3">
+    				<div class="modal" id="popup-2">
+      					<div class="modal-body">
+        					<button type="button" class="close close-button">&times;</button>
+        					<p>Drugi popup</p>
+      					</div>
+    				</div>
+    			</div>
+    			<div class="col-m-3">
+    				<div class="modal" id="popup-3">
+      					<div class="modal-body">
+        					<button type="button" class="close close-button">&times;</button>
+        					<p>Trzeci popup</p>
+      					</div>
+    				</div>
+    			</div>
+    			<div class="col-m-3">
+    				<div class="modal" id="popup-4">
+      					<div class="modal-body">
+        					<button type="button" class="close close-button">&times;</button>
+        					<p>Czwary popup</p>
+      					</div>
+    				</div>
+    			</div>
+    			<div class="col-m-3">
+    				<div class="modal" id="popup-5">
+      					<div class="modal-body">
+        					<button type="button" class="close close-button">&times;</button>
+        					<p>Piąty popup</p>
+      					</div>
+    				</div>
+    			</div>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+
+	</body>
+
+</html>
