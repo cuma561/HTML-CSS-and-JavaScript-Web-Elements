@@ -16,15 +16,56 @@
         line-height: 2.25;
         display: block;
         border-radius: 50%;
-        color: $color_danger;
+        color: $color_primary;
         box-shadow: 0 1px 5px $color_gray;
         font-weight: bold;
 
         &:hover, &.active {
           color: $color_white;
-          background: $color_danger;
+          background: $color_primary;
         }
       }
     }
   }
 }
+
+.pagination-danger{
+  ul li a {
+    color: $color_danger;
+    &:hover,&.active{
+      background: $color_danger;
+      color: $color_white;
+    }
+  }
+}
+
+.pagination-success{
+  ul li a {
+    color: $color_success;
+    &:hover,&.active{
+      background: $color_success;
+      color: $color_white;
+    }
+  }
+}
+
+.pagination-warning{
+  ul li a {
+    color: $color_warning;
+    &:hover,&.active{
+      background: $color_warning;
+      color: $color_white;
+    }
+  }
+}
+
+.pagination-info{
+  ul li a {
+    color: $color_info;
+    &:hover,&.active{
+      background: $color_info;
+      color: $color_white;
+    }
+  }
+}
+

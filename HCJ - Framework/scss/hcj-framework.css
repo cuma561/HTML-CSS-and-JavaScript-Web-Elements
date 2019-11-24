@@ -1305,12 +1305,36 @@ table {
     line-height: 2.25;
     display: block;
     border-radius: 50%;
-    color: #e80700;
+    color: #4372bc;
     box-shadow: 0 1px 5px gray;
     font-weight: bold; }
     .pagination ul li a:hover, .pagination ul li a.active {
       color: #f9f9f9;
-      background: #e80700; }
+      background: #4372bc; }
+
+.pagination-danger ul li a {
+  color: #e80700; }
+  .pagination-danger ul li a:hover, .pagination-danger ul li a.active {
+    background: #e80700;
+    color: #f9f9f9; }
+
+.pagination-success ul li a {
+  color: #3ec61f; }
+  .pagination-success ul li a:hover, .pagination-success ul li a.active {
+    background: #3ec61f;
+    color: #f9f9f9; }
+
+.pagination-warning ul li a {
+  color: #ffd91e; }
+  .pagination-warning ul li a:hover, .pagination-warning ul li a.active {
+    background: #ffd91e;
+    color: #f9f9f9; }
+
+.pagination-info ul li a {
+  color: #38c0ff; }
+  .pagination-info ul li a:hover, .pagination-info ul li a.active {
+    background: #38c0ff;
+    color: #f9f9f9; }
 
 .img-responsive {
   max-width: 100%; }
